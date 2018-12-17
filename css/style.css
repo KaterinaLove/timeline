@@ -1,36 +1,31 @@
-@container-width: 670px;
-@background-timeline: #5e607a;
-
-
-.fonts(@align) {
-  font-family:sans-serif, HelveticaNeue;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 700;
-  text-align: @align;
-  text-shadow: 0px -1px 0px rgba(22, 23, 48, 0.5);
-}
-
 * {
   margin: 0;
   padding: 0;
 }
-
 .contaner {
-  width: @container-width;
+  width: 670px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   background-image: url(../img/Background.png);
   margin: 0 auto;
 }
-
 .left {
-  .fonts(right);
+  font-family: sans-serif, HelveticaNeue;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  text-shadow: 0px -1px 0px rgba(22, 23, 48, 0.5);
   margin-right: 11px;
 }
 .right {
-  .fonts(left);
+  font-family: sans-serif, HelveticaNeue;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: 0px -1px 0px rgba(22, 23, 48, 0.5);
   margin-left: 11px;
 }
 .event {
@@ -42,7 +37,12 @@
   line-height: 49px;
   border-radius: 50%;
   display: block;
-  .fonts(center);
+  font-family: sans-serif, HelveticaNeue;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0px -1px 0px rgba(22, 23, 48, 0.5);
   background: -webkit-linear-gradient(90deg, #565b78 0%, #737c9c 100%);
   background: -moz-linear-gradient(90deg, #565b78 0%, #737c9c 100%);
   background: -o-linear-gradient(90deg, #565b78 0%, #737c9c 100%);
@@ -61,30 +61,22 @@ span {
 }
 #left-tooltips-2006 {
   background-color: #967fb5;
-   padding: 11px 17px;;
+  padding: 11px 17px;
   margin: 0px 16px 195px 0;
 }
 #left-tooltips {
   background-color: #cd3737;
-  padding: 11px 17px;;
+  padding: 11px 17px;
   margin: 0px 16px 178px 0;
 }
 #left-tooltips-1988 {
   background-color: #967fb5;
-  padding: 11px 17px;;
+  padding: 11px 17px;
   margin: 0px 16px 80px 0;
 }
 #right-tooltips {
   background-color: #967fb5;
-      padding: 11px 17px;
-    margin: 147px -9px 80px 29px;
+  padding: 11px 17px;
+  margin: 147px -9px 80px 29px;
 }
-#right-tooltips-2004 {
-  
-}
-#right-tooltips-1999 {
-  
-}
-#right-tooltips-1894 {
-  
-}
+/*# sourceMappingURL=style.css.map */
